@@ -14,8 +14,6 @@ The binary constraints on a variable are given by its overlap with neighboring v
 
 We’ll add the additional constraint that all words must be different: the same word should not be repeated multiple times in the puzzle.
 
-The challenge ahead, then, is write a program to find a satisfying assignment: a different word (from a given vocabulary list) for each variable such that all of the unary and binary constraints are met.
-
 # Understanding
 
 There are two Python files in this project: crossword.py and generate.py. 
